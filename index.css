@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    background-color: #e8e9e9;
+}
+
 #html {
     color: #dd4b24; 
 }
@@ -8,4 +15,17 @@
 
 #javascript {
     color: rgb(145, 145, 8);
+}
+
+#developer {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #c9e4f7;
+    overflow: hidden;
+}
+
+#developer-photo {
+    height: 200px;
+    margin-top: 20px;
 }
