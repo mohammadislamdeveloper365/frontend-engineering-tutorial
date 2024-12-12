@@ -1,3 +1,45 @@
 .txt-decoration-none {
     text-decoration: none;
 }
+
+#header-navigation {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    background-color: bisque;
+    list-style-type: none;
+    margin: 0;
+    height: 35px;
+}
+
+.navigation-item {
+    text-decoration: none;
+    color: brown;
+    margin: auto;
+}
+
+.navigation-list {
+    padding: 5px;
+    flex-grow: 1;
+    display: flex;
+}
+
+#body-content {
+    padding-top: 35px;
+}
+@media screen and (max-width:340px) {
+    .navigation-container {
+        height: 140px;
+        flex-direction: column;
+    }
+
+    #body-content {
+        padding-top: 140px;
+    }
+}

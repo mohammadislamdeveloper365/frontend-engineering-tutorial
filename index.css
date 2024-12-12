@@ -5,6 +5,10 @@
     background-color: #e8e9e9;
 }
 
+body {
+    margin: 0;
+}
+
 #html {
     color: #dd4b24; 
 }
