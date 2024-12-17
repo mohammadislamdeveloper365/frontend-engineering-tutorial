@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
     <title>Frontend Engineering</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <nav id="header-navigation">
@@ -16,8 +18,14 @@
             <li class="navigation-list">
                 <a href="#" class="navigation-item">About me</a>
             </li>
-            <li class="navigation-list">
+            <li class="navigation-list dropdown-container">
                 <a href="#" class="navigation-item">Courses</a>
+                <ul class="list-style-none nav-dropdown">
+                    <li><a href="#" class="nav-dropdown-item">HTML</a></li>
+                    <li><a href="#" class="nav-dropdown-item">CSS</a></li>
+                    <li><a href="#" class="nav-dropdown-item">Javascript</a></li>
+                    <li><a href="#" class="nav-dropdown-item">React</a></li>
+                </ul>
             </li>
             <li class="navigation-list">
                 <a href="#" class="navigation-item">Login</a>
